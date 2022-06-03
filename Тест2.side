@@ -1,0 +1,195 @@
+{
+  "id": "0612ea48-205e-4329-b089-85eb72297b8b",
+  "version": "2.0",
+  "name": "https://rozetka.com.ua/",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "183f4d11-3155-41f9-b8d5-6d60ebf3d818",
+    "name": "Untitled",
+    "commands": [{
+      "id": "c5953327-9dd6-480c-80b9-4b9f16115817",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c168c5b-f4d3-45e9-ac93-99c4711a66e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "850x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45bd06fe-6f13-438b-9a03-05893a5dddc5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.main-notification__thumbnail",
+      "targets": [
+        ["css=.main-notification__thumbnail", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/samsung_qe55q60aauxua/p297615813/')]", "xpath:href"],
+        ["xpath=//section/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cbd3dee-0be1-4f52-8fa5-7f6f42be9f6d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.main-notification__thumbnail",
+      "targets": [
+        ["css=.main-notification__thumbnail", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/samsung_qe55q60aauxua/p297615813/')]", "xpath:href"],
+        ["xpath=//section/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9370b18c-e97f-4cff-ae56-5211f311c4d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__button > .ng-tns-c94-1 > .ng-tns-c94-1",
+      "targets": [
+        ["css=.header__button > .ng-tns-c94-1 > .ng-tns-c94-1", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a1e148e-bcca-405c-af02-5fee2e17c84d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.side-menu__item > #fat-menu",
+      "targets": [
+        ["css=.side-menu__item > #fat-menu", "css:finder"],
+        ["xpath=(//button[@id='fat-menu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/nav/div/div[2]/ul/li/button", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0ad10cf-03df-41dd-bdc9-686f1ec239b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-main__item:nth-child(19) .menu-main__link-title",
+      "targets": [
+        ["css=.menu-main__item:nth-child(19) .menu-main__link-title", "css:finder"],
+        ["xpath=//li[19]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'GPS навигаторы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cb4768c-72a9-4523-9fb3-d4cc2cb30ded",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__picture",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/288853258/p288853258/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec17d314-8d0e-4ad8-8837-69e62f81922c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__picture",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/288853258/p288853258/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00666b44-2c09-495e-805f-ed58181e1ff2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,470)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca23d7fa-471c-4d50-9931-1afaafa61a9c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,849)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7a2dbc0-090a-4306-b7f2-e6737303e8a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1512)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db5f38ac-5b5d-40fb-a02e-a369b0504341",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__button--active use",
+      "targets": [
+        ["css=.header__button--active use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c745320-047b-48ce-8052-fa4a76258294",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a10deb9-6a52-4585-871d-be5555105a0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=cartProductActions0",
+      "targets": [
+        ["id=cartProductActions0", "id"],
+        ["css=#cartProductActions0", "css:finder"],
+        ["xpath=//button[@id='cartProductActions0']", "xpath:attributes"],
+        ["xpath=//rz-popup-menu/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fe98e53-6292-4273-a86c-4f1a5b319fe0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=cartProductActions0",
+      "targets": [
+        ["id=cartProductActions0", "id"],
+        ["css=#cartProductActions0", "css:finder"],
+        ["xpath=//button[@id='cartProductActions0']", "xpath:attributes"],
+        ["xpath=//rz-popup-menu/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a5b28b-1a84-479c-8bbd-7ca8944a0904",
+      "comment": "",
+      "command": "click",
+      "target": "css=.side-menu__item > #fat-menu",
+      "targets": [
+        ["css=.side-menu__item > #fat-menu", "css:finder"],
+        ["xpath=(//button[@id='fat-menu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/nav/div/div[2]/ul/li/button", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0562468-915e-42e8-9078-f30dd2cc3f19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-main__item:nth-child(2) .menu-main__link-title",
+      "targets": [
+        ["css=.menu-main__item:nth-child(2) .menu-main__link-title", "css:finder"],
+        ["xpath=//li[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Смартфоны, ТВ и электроника')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6a5980be-a5e7-4785-ac08-eb8d8aec53a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["183f4d11-3155-41f9-b8d5-6d60ebf3d818"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}

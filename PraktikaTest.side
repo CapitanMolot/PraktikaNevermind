@@ -1,0 +1,76 @@
+{
+  "id": "b8c4801d-ad3c-46cf-881c-8610bb200068",
+  "version": "2.0",
+  "name": "PraktikaTest",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "d3b26cfc-105a-46db-a5a0-d19043348872",
+    "name": "TestpRACTIK",
+    "commands": [{
+      "id": "4590c8e8-175c-4f23-b847-0ad62867db28",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3435f89e-0c5f-48b9-b15d-21dc63a8a35d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f45325a8-7188-4e43-955e-794405d355e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--green",
+      "targets": [
+        ["css=.button--green", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//nav/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Каталог товаров')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ce42ef0-83c8-4225-a69b-c1b29cdc523e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-main__item:nth-child(1) .menu-main__link-title",
+      "targets": [
+        ["css=.menu-main__item:nth-child(1) .menu-main__link-title", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ноутбуки и компьютеры')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f81dbf8-45f9-4d9b-bcdd-05ce5f2a170d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38daf02c-f0f2-46f4-9878-f7d418dbf6a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-main__item:nth-child(11) .menu-main__link-title",
+      "targets": [
+        ["css=.menu-main__item:nth-child(11) .menu-main__link-title", "css:finder"],
+        ["xpath=//fat-menu-mobile/ul/li[11]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Память')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2fcb9a06-9115-463b-9b1b-774b373faeb0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d3b26cfc-105a-46db-a5a0-d19043348872"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}

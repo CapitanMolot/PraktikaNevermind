@@ -1,0 +1,162 @@
+{
+  "id": "14088474-640a-4167-a2a0-31b2470a0432",
+  "version": "2.0",
+  "name": "https://rozetka.com.ua/",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "b3fb09ab-ef65-4a00-a07c-08b443c0baf1",
+    "name": "Практика тест",
+    "commands": [{
+      "id": "b5b6cd92-a936-49b3-8190-9a28e41503cb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8daefb1c-b947-46ee-b9b5-114bcd63a246",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1020x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2199ba3c-36a6-4983-a822-86ff957c8299",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ef10c5c-dd18-40d6-bd9c-0c9d10921f1d",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ТЕЛЕВИЗОР"
+    }, {
+      "id": "3eb55813-74b5-4767-b683-b42b99a3f9b4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c02aa7df-64dd-4de6-bba4-edc3fd45aaf2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__picture > .ng-lazyloaded:nth-child(1)",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__picture > .ng-lazyloaded:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Телевизор Samsung QE55Q60AAUXUA']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "184e67e5-aa8e-4584-b0fe-ea4184e91d95",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.goods-tile__picture > .display-none:nth-child(1)",
+      "targets": [
+        ["css=.goods-tile__picture > .display-none:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Телевизор Samsung QE55Q60AAUXUA']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af10c5df-c0d3-40b4-bb5f-2044208366f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,204)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3634b587-8b74-47c3-8da8-e2920c043d25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(1) .lazy_img_hover",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .lazy_img_hover", "css:finder"],
+        ["xpath=(//img[@alt='Телевизор Samsung QE55Q60AAUXUA'])[2]", "xpath:img"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e23b886d-5444-44d9-bdf6-c011c76621de",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26497348-3eb7-49ca-be8f-2b254309e93b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,629)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "464c716b-e56c-486d-8663-72b74f1d8fe9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Характеристики",
+      "targets": [
+        ["linkText=Характеристики", "linkText"],
+        ["css=.tabs__item:nth-child(2) > .tabs__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Характеристики')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/samsung_qe55q60aauxua/p297615813/characteristics/')]", "xpath:href"],
+        ["xpath=//rz-tabs/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Характеристики')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8cd4aa0-6fa6-4978-bcab-e21da994983f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buy-button__label",
+      "targets": [
+        ["css=.buy-button__label", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6426572c-da50-47b4-a28e-7a8e9ad411e5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buy-button",
+      "targets": [
+        ["css=.buy-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//app-buy-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "43bd068d-6a60-4946-8f39-923d9574c78e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b3fb09ab-ef65-4a00-a07c-08b443c0baf1"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
